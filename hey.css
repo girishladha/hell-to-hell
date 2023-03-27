@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
+
+*{
+  font-family: 'Nunito', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  transition: all .2s linear;
+}
+
+html::-webkit-scrollbar{
+  width:20px;
+}
+
+html::-webkit-scrollbar-track{
+  background: #000;
+}
+
+html::-webkit-scrollbar-thumb{
+  background: #fff;
+}
+
+
+.containerfun{
+  /* border: 1px solid white; */
+  background:url('https://wallup.net/wp-content/uploads/2018/09/27/287016-abstract-futuristic.jpg') no-repeat  ;
+  background-size: cover;
+  padding:5%;
+  text-align:left;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex-flow: column;
+  align-items: stretch;
+}
+
+.containerfun .section1 .texto{
+  /* border: 1px solid red; */
+  /* color:#fff3; */
+  color: azure;
+  font-size: 8vw;
+  text-transform: capitalize;
+  padding:30px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.containerfun .texto:hover{
+  color:#fff;
+  position: relative;
+  z-index: 100;
+  text-shadow: 0 5px 10px rgba(0,0,0,.7);
+}
+
+.containerfun .section2
+{
+  /* border: 1px solid blue; */
+  padding: 1rem;
+  margin: 0rem 1rem;
+}
+
+.containerfun .incubation
+{
+  /* border: 1px solid pink; */
+  display: none;
+  /* position: absolute; */
+  background-image: url("gi1.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10rem 1rem;
+  padding: 10rem 10rem;
+  z-index: +10;
+  opacity: 0.9;
+}
+
+.containerfun .acceleration
+{
+  /* border: 1px solid pink; */
+  display: none;
+  background-image: url("gi2.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10rem 1rem;
+  padding: 10rem;
+  z-index: +4;
+  opacity: 0.9;
+}
+
+.containerfun .adoption
+{
+  /* border: 1px solid pink; */
+  display: none;
+  /* position: absolute; */
+  background-image: url("giphy.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10rem 1rem;
+  padding: 10rem;
+  z-index: +3;
+  opacity: 0.9;
+}
